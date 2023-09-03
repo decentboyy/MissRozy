@@ -75,8 +75,8 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/LazyDeveloperSupport"),
-                        InlineKeyboardButton("🔊ß⊕†s chαηηεl", url="https://t.me/LazyDeveloper")
+                        InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/CodeNexuscommunity"),
+                        InlineKeyboardButton("🔊ß⊕†s chαηηεl", url="https://t.me/CodeNexus_community")
                     ],
                     [
                         InlineKeyboardButton("🤖Aß⊕ut ß⊕†", callback_data="aboutbot"),
@@ -91,8 +91,8 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/LazyDeveloperSupport"),
-                        InlineKeyboardButton("🔊ß⊕†s chαηηεl", url="https://t.me/LazyDeveloper")
+                        InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/CodeNexuscommunity"),
+                        InlineKeyboardButton("🔊ß⊕†s chαηηεl", url="https://t.me/CodeNexus_community")
                     ],
                     [
                         InlineKeyboardButton("🤖Aß⊕ut ß⊕†", callback_data="aboutbot"),
@@ -138,7 +138,7 @@ async def main(bot: Client, message: Message):
                 return
 
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("ꜱᴏʀʀʏ, ʏᴏᴜ ᴀʀᴇ ʙᴀɴɴᴇᴅ!\n\nContact [Support Group](https://t.me/LazyDeveloperSupport)",
+            await message.reply_text("ꜱᴏʀʀʏ, ʏᴏᴜ ᴀʀᴇ ʙᴀɴɴᴇᴅ!\n\nContact [Support Group](https://t.me/CodeNexuscommunity)",
                                      disable_web_page_preview=True)
             return
 
@@ -332,7 +332,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("⚡️SФUЯCΞ CФDΞS ФF ß⊕Γ",
-                                             url="https://github.com/LazyDeveloperr/MissRozy")
+                                             url="https://t.me/decent_op")
                     ],
                     [
                         InlineKeyboardButton("GФ HФMΞ", callback_data="gotohome"),
@@ -350,7 +350,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("⚡️SФUЯCΞ CФDΞS ФF ß⊕Γ",
-                                             url="https://github.com/LazyDeveloperr/MissRozy")
+                                             url="https://t.me/decent_op")
                     ],
                     [
                         InlineKeyboardButton("🤖Aß⊕ut ß⊕t", callback_data="aboutbot"),
@@ -368,8 +368,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/LazyDeveloperSupport"),
-                        InlineKeyboardButton("🔊ß⊕ts Channel", url="https://t.me/LazyDeveloper")
+                        InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/CodeNexuscommunity"),
+                        InlineKeyboardButton("🔊ß⊕ts Channel", url="https://t.me/CodeNexus_community")
                     ],
                     [
                         InlineKeyboardButton("🤖Aß⊕ut ß⊕t", callback_data="aboutbot"),
@@ -388,8 +388,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/LazyDeveloperSupport"),
-                        InlineKeyboardButton("🔊ß⊕ts Channel", url="https://t.me/LazyDeveloper")
+                        InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/CodeNexuscommunity"),
+                        InlineKeyboardButton("🔊ß⊕ts Channel", url="https://t.me/CodeNexus_community")
                     ],
                     [
                         InlineKeyboardButton("🤖Aß⊕ut ß⊕t", callback_data="aboutbot"),
@@ -412,7 +412,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(channel_chat_id, cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="ꜱᴏʀʀʏ ꜱɪʀ, ʏᴏᴜ ᴀʀᴇ ʙᴀɴɴᴇᴅ ᴛᴏ ᴜꜱᴇ ᴍᴇ. ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [Support Group](https://t.me/LazyDeveloperSupport).",
+                        text="ꜱᴏʀʀʏ ꜱɪʀ, ʏᴏᴜ ᴀʀᴇ ʙᴀɴɴᴇᴅ ᴛᴏ ᴜꜱᴇ ᴍᴇ. ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [Support Group](https://t.me/CodeNexuscommunity).",
                         disable_web_page_preview=True
                     )
                     return
@@ -435,7 +435,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="ꜱᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ. ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [Support Group](https://t.me/LazyDeveloperSupport).",
+                    text="ꜱᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ. ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [Support Group](https://t.me/CodeNexuscommunity).",
                     disable_web_page_preview=True
                 )
                 return
@@ -446,8 +446,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/LazyDeveloperSupport"),
-                        InlineKeyboardButton("🔊ß⊕ts Channel", url="https://t.me/LazyDeveloper")
+                        InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/CodeNexuscommunity"),
+                        InlineKeyboardButton("🔊ß⊕ts Channel", url="https://t.me/CodeNexus_community")
                     ],
                     [
                         InlineKeyboardButton("🤖Aß⊕ut ß⊕t", callback_data="aboutbot"),
@@ -466,8 +466,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/LazyDeveloperSupport"),
-                        InlineKeyboardButton("🔊ß⊕ts Channel", url="https://t.me/LazyDeveloper")
+                        InlineKeyboardButton("🍿supp⊕r† gr⊕up", url="https://t.me/CodeNexuscommunity"),
+                        InlineKeyboardButton("🔊ß⊕ts Channel", url="https://t.me/CodeNexus_community")
                     ],
                     [
                         InlineKeyboardButton("🤖Aß⊕ut ß⊕t", callback_data="aboutbot"),
